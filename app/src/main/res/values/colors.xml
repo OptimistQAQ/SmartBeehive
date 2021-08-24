@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="green">#5ea116</color>
+    <color name="text_dark">#262929</color>
+    <color name="top_background">#504e4e</color>
+    <color name="base_dark">#252b2c</color>
+    <color name="press_dark">#252929</color>
+
+    <color name="blue">#419DE4</color>
+    <color name="text_clo">#333</color>
+    <color name="border_clo">#ccc</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="light_blue">#03a9f4</color>
+    <color name="certainblue">#ff387ef5</color>
+    <color name="black">#000000</color>
+    <color name="button_normal">#858585</color>
+    <color name="button_press">#387ef5</color>
+    <color name="main_textTitleColor">#939090</color>
+
+    <color name="back">#e29645</color>
+    <color name="colorAccentLight">#ef749e</color>
+
+    //悬浮按钮
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="fab_color">#80738ffe</color>
+
+    <color name="selected">#cde6c8</color>
+    <color name="normal">#FFFFFF</color>
+    <color name="a">#d4d3d3</color>
+</resources>

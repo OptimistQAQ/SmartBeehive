@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Main"
+        android:icon="@drawable/ic_menu1"
+        android:fragment="com.example.smartbeehive.fragment.MainFragment"
+        ></item>
+    <item
+        android:title="History"
+        android:icon="@drawable/ic_menu2"
+        android:fragment="com.example.smartbeehive.fragment.HistoryFragment"
+        ></item>
+    <item
+        android:title="Mine"
+        android:icon="@drawable/ic_menu3"
+        android:fragment="com.example.smartbeehive.fragment.MineFragment"
+        ></item>
+
+</menu>
