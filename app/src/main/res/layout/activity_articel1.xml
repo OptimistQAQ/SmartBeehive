@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:singleLine="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".articel.Articel1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蜜蜂传粉好处"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一、对植物传宗接代的作用"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        植物，尤其是显花植物，为了使蜜蜂为之传粉，完成受精，实现自身的传宗接代，形成了对蜜蜂的各种适应性反应(在第二章第一节中重点论述)。可以想象，如果没有蜜蜂为植物的传粉，植物就不能完成受精，植物也不能实现传宗接代。"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二、对果树、农作物增产、增质、增效的作用"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       根据实验证明，有蜜蜂比没有蜜蜂作媒介，各种作物可以增产23%到一倍不等。"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="三、产生巨大的授粉经济价值，为人类提供直接、间接可利用的产品，也为自身提供食物而生存"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、授粉经济价值：以蜜蜂传粉为例，蜜蜂为作物传粉使作物高产而获得的经济价值，要比蜜蜂生产蜂产品的获益高数百倍。
+　　2、为人类提供农牧产品的需求：世界人口急剧增长，需要不断提高各类农牧产品的产量。人类利用传粉昆虫为作物授粉，一方面可以获得更多可直接利用的产品，如水果、谷物等，另一方面可以利用增加的产物，如牧草，饲养更多家畜家禽增加畜禽产品，为不断增长的人口提供更多的产品。
+　　3、为人类提供营养成分丰富全面的蜜蜂产品的需求：蜜蜂产品主要有蜂蜜、蜂王浆、蜂花粉、蜂蜡、蜂毒、蜂胶及蜂幼虫。蜜蜂产品用途广泛，经济价值高，国内外需要量极大。以下介绍蜂花粉的用途。
+　　蜂花粉的成分丰富全面，不但含有人体所必需的蛋白质、糖类、脂肪等一般营养成分，而且含有对新陈代谢具有特殊调节作用的酶类、维生素、微量元素、黄酮类化合物等生物活性物质，因而有“浓缩的营养库”之称。
+　　4、为自身提供食物而生存：蜜蜂以植物的花粉、花蜜为食物，蜜蜂在自然界中才能生存和繁衍后代。所以，蜜蜂在采集花粉、花蜜的过程中为植物传播花粉，两者在互利互惠的条件下相互适应，这是长期自然选择不断协同进化。"
+        android:textSize="20dp"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

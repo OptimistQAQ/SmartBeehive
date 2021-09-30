@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".articel.Articel4">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="蜜蜂传粉如何节约人工成本"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        2016年四川省蜂业管理站、德阳市农业局畜牧站联合在绵竹市华胜农业公司猕猴桃生产基地开展了蜜蜂授粉猕猴桃试验，2016年10月31日，蜜蜂授粉课题组深入田间采摘、称重，试验结果显示，蜜蜂授粉，可显著提高猕猴桃产量、果形好，猕猴桃蜜蜂授粉在结果数量、果实重量及饱满度方面远远优于人工授粉，同时节省大量生产成本。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        蜜蜂授粉是当前农业生产必不可少的重要增产措施以大量应用化肥、激素和农药为主要增产措施的潜力在目前几乎挖掘殆尽，蜜蜂授粉作为重要的农业增产措施在国内外愈来愈受重视。采用蜜蜂授粉，作物可得到优质、高产、果实(产品)，因其果形正、色泽艳、风味好，可赢得顾客、赢得市场。因此，经济发达的欧美国家，早已将蜂授粉技术作为现代农业的一项重要技术举措。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="蜜蜂授粉是其他农业增产措施无法相比的，有“多、快、好、省”四大优点。"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        “多”是指增产幅度大，便于大面积推广。一般通过蜜蜂授粉可使农作物、果树和蔬菜增产14%以上，高者甚至可达10倍以上。日本资料草莓增产10倍，中国资料沙打旺牧草增产9~10倍，美国醋栗增产7倍。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        “快”是指蜜蜂授粉效率比人工快几十倍。因为生产季节一群蜂有3-4万只采集蜂，每只每天平均出巢采集10次左右，每次要分别拜访30余朵花，携带500万粒花粉，所以蜜蜂授粉比人工授粉的速度要快得多。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="       “好”是指蜜蜂授粉效果好和授粉后农作的品质好。因为蜜蜂授粉不仅能飞到人工授粉所不能及的地方，减少遗漏，使每一朵花都能充分地受粉，而且由于蜜蜂可在花丛中不断地穿梭，真正实现远缘杂交，使农作物的品质好上加好。"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        “省”是指蜜蜂授粉省时、省力和省钱。随着劳务费的增长，人工授粉的方法存在着授粉成本高，而且费工费时，授粉不均匀，易人为造成污染，操作中易碰伤植株等问题，成为制约制种规模化的瓶颈。而蜜蜂作为虫媒花植物的主要传粉媒介，国内外试验和实践已证明，利用蜜蜂授粉可以提高果实、种子的产量和质量，并能节省大量劳力，降低成本，具有明显的经济效益，采用蜜蜂为作物杂交育种授粉是最有效和最经济的手段。蜜蜂授粉比人工授粉能节省80%的时间和80-90%的成本。"
+            />
+    </LinearLayout>
+
+</ScrollView>
