@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".articel.Articel2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="为什么蜜蜂传粉能增加农作物产量"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        如果你剥过向日葵，就有这么个经验：向日葵边缘的种子总是长得很饱满，一到盘的中央，粒子就比较小了，甚至还有空壳。这就是由于花粉不足，或者是完全没有获得花粉的缘故。
+蜜蜂的身体上长着很多的绒毛，它在采集花蜜和花粉的时候，总是从这一朵花飞向另一朵花，来回地飞来飞去，随着也就把粘在身上的花粉粘带到柱头上，使雌蕊获得更多的授粉机会。经过充分授粉后的作物，不仅结出的种子饱满，而且数量多，质量也好。"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        陕西省彬县水帘洞花果山一带，有一大片梨树林，二十多年以来，一直是只开花不结果。这个县的农业技术指导站对这片梨树进行了调査和观察，发现这些梨树不结果是由于得不到授粉的机会。于是他们在梨树开花期间，放上蜜蜂帮助授粉，这样作了以后，梨树年年果实累累。黑龙江省肇州县杏山人民公社安民大队，1960年用285群蜜蜂给6185亩向日葵授粉，平均亩产向日葵种子80斤，比没有放蜂的1959年增产151%，而且每群蜂还采了98斤蜜。"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="       在我国油菜产区，利用蜜蜂为油菜授粉的增产试验，证明在相同的土质、品种、耕作技术条件下，有蜜蜂帮助授粉比没有蜜蜂帮助授粉的油菜子，单位面积产量増加37.5%，出油率提高10%，种子的发芽率也髙达95%。"
+            />
+    </LinearLayout>
+
+</ScrollView>

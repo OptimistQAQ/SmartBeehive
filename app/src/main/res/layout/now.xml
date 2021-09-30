@@ -41,15 +41,19 @@
             android:layout_gravity="center_horizontal"
             android:textColor="#fff"
             android:textSize="70sp"
-            android:text="25℃"/>
+            android:text="温度"/>
 
         <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
             android:layout_marginTop="20dp">
 
             <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="蜂箱状态: "
@@ -61,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="40sp"
-                android:text="正常"
+                android:text="正在获取"
                 android:layout_marginLeft="20dp"/>
 
         </LinearLayout>

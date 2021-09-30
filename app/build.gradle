@@ -1,13 +1,15 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "30.0.2"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.smartbeehive"
+        applicationId "cn.nuc.edu.smartbeehibe"
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -24,13 +26,71 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith('multidex')) {
+                    details.useVersion '27.1.1' //这里改为你项目使用的版本即可
+                }
+            }
+        }
+    }
+
+    configurations {
+        cleanedAnnotations
+        compile.exclude group: 'org.jetbrains' , module:'annotations'
+    }
+
+
+
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    implementation'cn.yipianfengye.android:zxing-library:1.9'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.9.1'
+// https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.5'
+    //必须使用
+    compile 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.alibaba:fastjson:1.1.54.android'
+    implementation 'me.drakeet.multitype:multitype:3.4.4'
+
+//    mysql
+    implementation 'mysql:mysql-connector-java:5.1.47'
+
+    // https://mvnrepository.com/artifact/com.android.support/recyclerview-v7
+    //noinspection GradleCompatible
+    implementation group: 'com.android.support', name: 'recyclerview-v7', version: '28.0.0'
+
+
+//    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    // https://mvnrepository.com/artifact/com.android.support/recyclerview-v7
+
+
+//以下三个选择添加，okrx和okrx2不能同时使用
+    compile 'com.lzy.net:okrx2:2.0.2'
+    compile 'com.lzy.net:okserver:2.0.5'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'cn.yipianfengye.android:zxing-library:2.2'
+
+//.....................
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    testImplementation 'junit:junit:4.13.2'
 
     implementation 'com.github.bumptech.glide:glide:4.4.0'
     implementation 'com.zhy:autolayout:1.4.5'
@@ -44,7 +104,18 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.1.71.android'
     implementation 'com.lzy.net:okgo:3.0.4'
 
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.aliyun.com/repository/google' }//
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }//
+    }
 }

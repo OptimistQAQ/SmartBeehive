@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smartbeehive">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.nuc.edu.smartbeehive">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <!--允许应用程序改变网络状态-->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
@@ -16,21 +30,36 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/bee"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SignActivity">
+        android:theme="@style/Theme.SmartBeehive"
+        tools:targetApi="n">
+        <activity android:name=".BeehiveInfoActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".articel.Articel4" />
+        <activity android:name=".articel.Articel3" />
+        <activity android:name=".articel.Articel2" />
+        <activity android:name=".articel.Articel1" />
+        <activity android:name=".ArticlePage" />
+        <activity android:name=".SensorData" />
+        <activity android:name=".ConnectingUs" />
+        <activity android:name=".AskForBeehive" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".UserInfoActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActicity" />
 
         <meta-data
             android:name="design_width"

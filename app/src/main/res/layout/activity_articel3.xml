@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".articel.Articel3">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蜜蜂对生态的价值"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        显花植物出现在地球上已有1.3亿年之久了。风是最初的授粉者，但依靠风来授粉，植物的交配效率非常低，且在无风区域，这种授粉方式基本没有任何作用。而虫媒就不一样了，虫媒是最高级的传粉方式，具有最高的传粉效率。常见的传粉昆虫有蜂类、蝶类、蛾类与蝇类等。这些昆虫往来于群花之间，虫体周身沾满花粉，当昆虫飞到其它花朵上时，即将花粉粒带到该花的雌蕊柱头上，由此实现传粉。"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        “蜜蜂与显花植物协同进化，在这个过程中，形成了以植物花蜜与花粉为食物的特殊生活习性。其生理结构也发生了适应性变化，具备采花授粉的各种条件，是自然界最理想的传粉昆虫。”中国农科院蜜蜂研究所研究员董捷表示。"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        据统计，全球约16万种显花植物中，由昆虫授粉的约占80％，其中85%靠蜜蜂授粉。与人类密切相关的各种果树，约90％依赖蜜蜂授粉；与人类衣食有关的粮、棉、油、茄果类菜蔬、有花牧草，均可得到蜜蜂授粉。如果没有蜜蜂授粉，约4万种植物会繁育困难、濒临灭绝。
+　　蜜蜂如此重要，但其物种多样性并不丰富。现在已知的蜂种仅有9个，其中有8种蜜蜂生活在亚洲，只有一种西方蜜蜂生活在欧洲、美洲。"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="        我国是世界上生物多样性最丰富的国家之一，拥有高等植物近3.5万种，其中一半以上为中国特有物种，很多具有重要经济价值、药用价值。在已知9种蜜蜂的蜂种里，我国拥有6种，这也不难解释中国这片神奇的土地为何能成为世界植物的王国。"
+            />
+
+    </LinearLayout>
+</ScrollView>

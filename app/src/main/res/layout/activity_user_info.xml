@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInfoActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户信息"
+            android:textSize="48sp"
+            android:layout_gravity="center"
+            ></TextView>
+
+    <TableLayout
+        android:layout_width="394dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用  户  名："
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tv_UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:textSize="25sp"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话号码："
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/et_UserPhone"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+                />
+        </TableRow>
+
+        <TableRow>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改密码"
+                android:textSize="25sp"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/btn_modify"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/ok"
+            android:text="修改"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60sp"
+            android:layout_weight="1"
+            android:background="@drawable/cancel"
+            android:text="取消"/>
+    </LinearLayout>
+
+</LinearLayout>
